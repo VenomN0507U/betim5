@@ -1,0 +1,114 @@
+header{
+
+    text-align:center;
+    padding: 1%;
+    font-size: 100%;
+    border-radius: 2%;
+    text-decoration: none;
+    
+    background-color:rgb(190, 244, 247)  ;
+
+
+}
+
+nav{
+
+    text-align:center;
+    padding: 0%;
+    font-size: 100%;
+    border-radius: 2%;
+
+    background-color:rgb(190, 244, 247)  ;
+   
+}
+
+main{
+
+    text-align:center ;
+    padding: 2%;
+    font-size: 100%;
+    border-radius: 1%;
+
+    background-color: rgb(210, 246, 248);
+ ;
+
+}
+
+section{
+
+    text-align:center;
+      padding: 2%;
+      font-size: 130%;
+      border-radius: 2%;
+  
+      background-color:rgb(210, 246, 248);
+      display:flex
+  
+      
+  }
+
+  #a0{
+
+    text-align:center ;
+    padding: 2%;
+    font-size: 100%;
+    border-radius: 2%;
+
+    background-color: rgb(210, 246, 248);    
+}
+
+#a1{
+
+    text-align:center;
+    padding: 2%;
+    font-size: 100%;
+    border-radius:2%;
+
+    background-color: rgb(210, 246, 248);
+   
+}
+
+#a2{
+
+    text-align:center;
+    padding: 2%;
+    font-size: 100%;
+    border-radius:2%;
+
+    background-color: rgb(210, 246, 248);
+
+}
+
+#a3{
+
+    text-align:center;
+    padding: 2%;
+    font-size: 100%;
+    border-radius:2%;
+
+    background-color: rgb(210, 246, 248);
+
+}
+
+#a4{
+
+    text-align:center;
+    padding: 1%;
+    font-size: 152%;
+ 
+    background-color: rgb(210, 246, 248);
+
+}
+
+footer{
+
+    text-align:center;
+    padding: 0%;
+    font-size: 102%;
+    background-color:rgb(210, 246, 248);
+}
+
+body{
+
+    background-color: rgb(209, 253, 255);
+}

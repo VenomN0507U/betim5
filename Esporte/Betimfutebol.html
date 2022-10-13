@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon/android-icon-96x96.png" type="image/x-icon">
+    <title>Betim Futebol</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+
+        <div id="a1"><a href="#"> <img src="logo/LOGO PRINCIPAL.png" alt="" height="100%" width="70%"></a>
+        </div>
+
+        
+        <div id="a2"></div>
+
+        <div id="a3"><img src="logo/SUBLOGO.png" alt="" height="100%" width="40%"></div>
+
+
+        <div id="a4">
+            <!-- 4 -->
+            <h3 id="hino">Ouça agora o Hino do Clube</h3>
+            <audio id="demo" src="audios/Hino Oficial da Cidade de Betim MG.mp3"></audio>
+            <div>
+                
+                <button id="play" onclick="document.getElementById('demo').play()">Play</button>
+                <button onclick="document.getElementById('demo').pause()">Pause</button>
+                <button id="au"onclick="document.getElementById('demo').volume+=0.1">+</button>
+                <button onclick="document.getElementById('demo').volume-=0.1">-</button>
+            </div>
+        </div>
+
+        <div id="a5">
+            <!-- 5 menu hamburguer -->
+            <div id="menu-bar">
+                <div id="menu" onclick="onClickMenu()">
+                    <div id="bar1" class="bar"></div>
+                    <div id="bar2" class="bar"></div>
+                    <div id="bar3" class="bar"></div>
+                </div>
+                <ul class="nav" id="nav">
+                    <li><a href="#">Página inicial</a></li>
+                    <li><a href="#">Entreterimento</a></li>
+                    <li><a href="#">Educação</a></li>
+                    <li><a href="#">Segurança Pública</a></li>
+                    <li><a href="#">Religião</a></li>
+                    <li><a href="#">Esportes</a></li>
+                    <li><a href="#">Economia</a></li>
+                </ul>
+            </div>
+            <div class="menu-bg" id="menu-bg"></div>
+            <script src="script.js"></script>
+
+        </div>
+
+        <div id="a6">
+            <!-- 6 -->
+            <h2>O Betim Futebol é um clube brasileiro de futebol da cidade de Betim, no estado de Minas Gerais. Foi fundado em 2019 a partir da mudança de nome da AMDH (Associação Mineira de Desenvolvimento Humano), que já desenvolvia trabalho nas categorias de base.</h2>
+
+            <h3> a equipe joga o Campeonato Mineiro do Módulo II, equivalente a segunda divisão do campeonato estadual. Seu mascote é o Guerreiro, que representa o espírito de luta e a força.</h3>
+
+                <h2><P>História</P></h2>
+
+             <h3>   
+                <p>No mesmo ano de sua fundação, o Betim Futebol estreou na Segunda Divisão do Campeonato Mineiro, ficando em segundo lugar, garantindo acesso para o Módulo II, no ano seguinte.</P>
+                
+                <p>Em 2020, quase conseguiu o acesso à primeira divisão do campeonato estadual, porém, empatou a última partida do quadrangular final e permaneceu em 3º lugar. No Módulo II do Campeonato Mineiro, apenas as duas primeiras equipes do quadrangular final se classificam para o Módulo I.</p>   
+            </h3>
+        </div>
+
+        <div id="a7">
+            <!-- 7 -->
+            <img id="mascote" src="img/MASCOTE FINAL.png">
+        </div>
+
+        <div id="a8">
+            <!-- 8 -->
+            <img id="info" src="img/informacoes.png">
+        </div>
+
+        <div id="a9">
+            <!-- 9 -->
+            <a href="https://betimfutebol.com.br/site/elenco/" target="_blank"><img id="elenco" src="img/ELENCO.png"></a>
+        </div>
+
+        <div id="a10">
+            <!-- 10 -->
+            <img id="estatisticas" src="img/estatisticas.png">
+        </div>
+
+        <div id="a11">
+            <!-- 11 -->
+            <img id="t2" src="img/t2.png">
+
+        </div>
+
+        <div id="a12">
+            <!-- 12 -->
+            <img id="destaque" src="img/destaque.png">
+        </div>
+
+        <footer id="a13">
+            <!-- 13 -->
+            <h5 id="footer">2022 BETIM, TODOS OS DIREITOS RESERVADOS                      DESENVOLVIDO POR CAIO FÉLIX® </h5>
+        </footer>
+
+
+    </div>
+</body>
+
+</html>

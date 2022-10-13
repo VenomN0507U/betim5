@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Betim Tem - Boliche</title>
+    <link rel="shortcut icon" href="MicrosoftTeams-image (3).png" type="image/x-icon">
+    <style>
+    .container1{
+        justify-content: space-around;
+        display: grid; /*Torna o elemento um grid container*/
+        display: inline-block;
+        grid-template-rows: 5vh x 20;/*cria linhas no grid*/
+        grid-template-columns: 1fr x 20;/*cria colunas*/
+        grid-gap: 10px;/*Define os pixels entre os elementos do grid (linha e coluna)*/
+        padding-left: 1%;/*define a largura da área de preenchimento à esquerda de um elemento.*/
+        padding-right: 1%;/*define a largura da área de preenchimento à direita de um elemento.*/
+       } 
+       #betim{
+        background-color: rgb(214, 14, 14);/*define a cor de fundo*/
+        grid-column: 1/5;/*vai oucupar a linha*/
+        grid-row: 1/5;/*vai oucupar uma linha*/
+       }
+       
+        
+    
+       #p1{
+        grid-column: 5/20;/*vai oucupar a linha*/
+        background-color: rgb(225, 48, 48);/*define a cor de fundo*/
+       }
+       body {
+        background-color: rgb(168, 131, 109);/*vai oucupar a linha*/
+        color: rgb(148, 127, 86);/*coloca a cor do texto*/
+       
+    }
+    h1 {
+        text-align: center;/*alinhamento horizontal do texto*/
+        font-family: fantasy;/*especifica a fonte de um elemento*/ 
+        font-size: 50px;
+        color: rgb(0, 0, 0);
+        background-color: rgb(181, 162, 153);
+        margin-left: 100px;/*define a margem esquerda*/
+        margin-right: 150px;/*define a margem direita*/
+        border-radius: 2cm;/*arredonda as bordas*/
+        min-height: 100%;
+        max-width: 100%;
+        
+    }
+    h2{
+        font-size: 30px;/*define o tamanho da fonte*/
+        margin-left: 150px;/*define a margem esquerda*/
+        margin-right: 150px;/*define a margem direita*/
+        border-radius: 2cm;/*arredonda as bordas*/
+    }
+    p{
+      font-family: fantasy; /*especifica a fonte de um elemento*/ 
+      text-align: justify;/*alinhamento horizontal do texto*/
+      color: rgb(0, 0, 0);/*coloca a cor do texto*/
+      border-radius: 2cm;/*arredonda as bordas*/
+    }
+    a{
+        color: rgb(3, 3, 0);/*coloca a cor do texto*/
+    }
+    img{
+        border-radius: 2cm;/*arredonda as bordas*/
+        min-height: 100px;
+        max-width: 300px;
+    }
+    
+    </style>
+</head>
+<body>
+    <div class="container1">
+    <!--imagem e texto-->
+    <img src="boliche1.jpg" alt="" width="600" height="300">
+    <img src="bolicheee.jpg" alt="" width="600"height="300"> 
+     <!--texto-->
+    <h1 id="h1">O boliche fica localizado no shopping Monte Carmo, onde se encontra o lugar para diversão e puro lazer, conta com comida como porção e bebidas, alem do mais conta tambem com espaço para jogar sinuca entre amigos, um lugar completo para você e sua familia!!!</h1> 
+    <p id="p1"></p>
+</div>
+</body>
+</html>
